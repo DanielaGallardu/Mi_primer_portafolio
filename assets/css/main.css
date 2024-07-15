@@ -11965,13 +11965,54 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.img__info {
-  width: 100%;
+body {
+  background: rgb(254, 251, 216);
+  background: radial-gradient(circle, rgb(254, 251, 216) 0%, rgb(238, 206, 185) 100%);
 }
 
-.img__hab {
-  width: 2.5rem;
-  margin-left: 1rem;
+.navbar-brand {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-primary {
+  font-weight: bold;
+  background-color: #BB9AB1;
+  border-color: #BB9AB1;
+}
+
+.btn-primary:hover {
+  background-color: #987D9A;
+  border-color: #987D9A;
+}
+
+.navbar-custom {
+  background-color: #987D9A;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link a:hover {
+  color: #EECEB9;
+}
+
+.container__header--information {
+  margin-top: 2rem;
+}
+
+.img__info {
+  width: 100%;
 }
 
 .logo {

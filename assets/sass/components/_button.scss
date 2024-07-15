@@ -1,0 +1,10 @@
+.btn-primary{
+  font-weight: bold;
+  background-color: $color-btn;
+  border-color: $color-btn;
+}
+
+.btn-primary:hover{
+  background-color: $color-primary;
+  border-color: $color-primary;
+}

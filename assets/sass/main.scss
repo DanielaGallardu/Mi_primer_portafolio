@@ -1,4 +1,7 @@
+@charset "UTF-8";
 // abstracts
+@import
+"abstracts/variables";
 
 // vendors
 @import
@@ -6,6 +9,7 @@
 
 // base
 @import
+   'base/background',
    'base/reset',
    'base/typography';
 
@@ -13,6 +17,9 @@
 
 // components
 @import
+  'components/button',
+  'components/navbar',
+  'components/container',
   'components/images',
   'components/custom_button',
   'components/logo';
