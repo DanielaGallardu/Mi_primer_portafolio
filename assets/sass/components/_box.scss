@@ -1,0 +1,12 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  text-align: center;
+   
+  &img {
+    max-width: 6.25rem;
+   height: auto;
+  }
+} 
