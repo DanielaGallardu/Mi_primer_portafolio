@@ -2,6 +2,10 @@
   font-weight: bold;
   background-color: $color-btn;
   border-color: $color-btn;
+
+  @include mobile {
+    width: 100%;
+  }
 }
 
 .btn-primary:hover{

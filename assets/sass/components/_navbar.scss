@@ -4,6 +4,11 @@
 
 .nav-link{
   color: $color-white;
+
+  @include mobile {
+    text-align: center;
+  }
+
 }
 
 .nav-link a:hover{
